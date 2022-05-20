@@ -88,6 +88,9 @@ Plan C:
 La mejor oción ideal para un ambiente más de producción dónde constantemente se ocupa acceso al resultado sería crear una función Lambda que importe y exporte los datos del bucket. 
 No seleccionaré esta opción pues solamente lo necesitaré para la resolución del ejercicio y el free tier de Sagemaker es más que suficiente.
 
+Entonces la arquitectura seríá algo así:
+[Arquitectura](https://github.com/Daegas/GFB-Test/blob/main/s3%20Buckte.png)
+
 
 ## Crear notebook Sagemaker con Permission an Encryption: Execution Role.
 
@@ -107,3 +110,7 @@ Siguiendo desde el punto 2.3 al punto 4.3 del [Tutorial base](https://amazon-sag
 saltándose la creación de contenedores(aunque es muy útil para la reproductibilidad, llevaría más tiempo en indagar la forma correcta de hacerlo.Se deja dicha investigación al final.)
 
 Subir el archivo data_transsformation.ipynb
+
+## Dashboard
+[Ir al Dashboard ](https://us-east-1.quicksight.aws.amazon.com/sn/accounts/298954333936/dashboards/bb57c5c9-30c1-4680-b7a8-690cf261a211?directory_alias=gfb-dara-quicksight)
+
